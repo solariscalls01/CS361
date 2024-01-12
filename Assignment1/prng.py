@@ -5,6 +5,7 @@ import os
 # generate a random number using the random library of numbers 1 through 7
 randomNum = str(random.randint(1, 7))
 
+
 # # create the prng-service.txt file if it does not exist in the root folder
 # # source for how to create text file if file does not exist in directory automatically
 # # https://stackoverflow.com/questions/35807605/create-a-file-if-it-doesnt-exist
@@ -22,7 +23,7 @@ def generate_number():
     # section to read the contents from the text file
     with open('prng-service.txt') as f:
         get_text = f.read()
-        print(get_text)
+        # print(get_text)
         if get_text == "run":
             # this statement "writes" essentially erasing the content of the text file
             # Source on how to erase content in a text
@@ -32,9 +33,9 @@ def generate_number():
             # section to write the random number generated to the text file
             with open('prng-service.txt', 'w') as f:
                 f.write(randomNum)
-                print(randomNum)
                 f.close()
 
-#set a time to delay for 3 seconds before running the program
-time.sleep(3)
+
+# set a time to delay for 3 seconds before running the program
+time.sleep(2)
 generate_number()
