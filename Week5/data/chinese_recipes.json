@@ -6,8 +6,7 @@
       "ingredients": {
         "cooked_rice": "4 cups cooked rice, preferably chilled (day-old rice works best)",
         "protein": {
-          "type": "protein (choose one or a combination)",
-          "options": ["8 ounces cooked chicken, diced", "8 ounces cooked shrimp, peeled and deveined", "8 ounces firm tofu, diced", "2 eggs, beaten"]
+          "options": ["8 ounces cooked chicken, diced or ", "8 ounces cooked shrimp, peeled and deveined or ", "8 ounces firm tofu, diced", "2 eggs, beaten"]
         },
         "vegetables": ["1 cup diced carrots", "1 cup frozen peas", "1 cup diced bell peppers", "1 cup sliced green onions"],
         "aromatics": {
