@@ -2,20 +2,10 @@ import json
 import time
 import os
 import inquirer
-import random
+import requests
+import ASCII_Art
 
 #### VARIABLES ####
-ascii_art = """
-
- _______  _______  _______  ______     ______    _______  _______  ___   _______  _______ 
-|       ||       ||       ||      |   |    _ |  |       ||       ||   | |       ||       |
-|    ___||   _   ||   _   ||  _    |  |   | ||  |    ___||       ||   | |    _  ||    ___|
-|   |___ |  | |  ||  | |  || | |   |  |   |_||_ |   |___ |       ||   | |   |_| ||   |___ 
-|    ___||  |_|  ||  |_|  || |_|   |  |    __  ||    ___||      _||   | |    ___||    ___|
-|   |    |       ||       ||       |  |   |  | ||   |___ |     |_ |   | |   |    |   |___ 
-|___|    |_______||_______||______|   |___|  |_||_______||_______||___| |___|    |_______|
-
-"""
 
 introduction = "Welcome to the Food Recipe App! Explore delicious recipes with us. From simple to sophisticated, we're\n here to make your cooking experience enjoyable and rewarding. " \
                "Happy cooking!\n\n\n"
@@ -51,7 +41,7 @@ get_american_recipe_length = len(american_recipes['recipes'])
 #####################################################
 
 def main_menu():
-    print(ascii_art)
+    print(ASCII_Art.logo)
     print(introduction)
     # Function to generate the main menu to allow users to return to this section if item is selected
     while True:
@@ -85,6 +75,7 @@ def select_item():
 #######################################################################################
 
 def asian_menu():
+    print(ASCII_Art.asian_ASCII)
     print("Let's take a look at some of the Asian Recipes we have available!\n\n")
     questions = [
         inquirer.List('cuisine',
@@ -94,7 +85,6 @@ def asian_menu():
     ]
     answer = inquirer.prompt(questions)
 
-    print(answer)
     # choice selection for if user selects chinese
     if answer['cuisine'] == 'Chinese':
 
@@ -138,6 +128,7 @@ def asian_menu():
 
 
 def mexican_menu():
+    print(ASCII_Art.mexican_ASCII)
     print("Let's take a look at some of the Mexican Recipes we have available!\n\n")
     questions = [
         inquirer.List('recipe',
@@ -156,6 +147,7 @@ def mexican_menu():
 
 
 def american_menu():
+    print(ASCII_Art.american_ASCII)
     print("Let's take a look at some of the American Recipes we have available!\n\n")
     questions = [
         inquirer.List('recipe',
@@ -171,6 +163,58 @@ def american_menu():
 
     print_json(american_recipes, choice)
 
+def get_random_recipe():
+    print("Getting your random recipe from the internet...")
+    count_to_three()
+    response = requests.get('https://www.themealdb.com/api/json/v1/1/random.php')
+    data = response.json()
+    print(f"Recipe: {data['meals'][0]['strMeal']}")
+    print(f"\nIngredients:")
+    count = 1
+    get_ingredients = data['meals'][0]
+
+    # loop to extract the ingredients and measures from random recipe JSON API from: https://www.themealdb.com/api/json/v1/1/random.php
+    for ingredient in get_ingredients:
+        if ("strIngredient") in ingredient:
+            # conditional to exit as strIngredient does not > 20
+            if "strIngredient21" in ingredient:
+                break
+            count += 1
+            # section to break out of loop if empty lines are detected
+            if get_ingredients['strIngredient' + str(count)] == "" or get_ingredients['strIngredient' + str(count)] is None:
+                break
+            print(f"\t-{get_ingredients['strIngredient' + str(count)]}: {get_ingredients['strMeasure' + str(count)]}")
+    print("\n")
+
+    # split the ingredients paragraph into a list and use for loop to print out each individual line
+    list_text = (get_ingredients['strInstructions'].split("."))
+    # print(list_text)
+    for instruction in list_text:
+        if "\r" in instruction:
+            instruction = instruction.replace("\r", "-")
+            print(instruction)
+        else:
+            print(f'- {instruction}')
+
+    print("\n\n")
+
+    question = [
+        inquirer.List('question',
+                      message= "Would you like another random recipe?",
+                      choices=["Yes", "No"])
+    ]
+    answer = inquirer.prompt(question)
+
+    if answer['question'] == "Yes":
+        clear_screen()
+        print("Getting your random recipe from the internet...")
+        count_to_three()
+        get_random_recipe()
+    else:
+        clear_screen()
+        return_to_main()
+        
+
 #######################################################################################
 #######################################################################################
 #######################################################################################
@@ -179,10 +223,6 @@ def american_menu():
 #######################################################################################
 ################# USER INTERFACE FUNCTIONS ############################################
 #######################################################################################
-def get_random_recipe():
-    # Maybe utilize a random num generator to return a random recipe from one of the 3 dishes. Set variable maybe?
-    print("random selected")
-
 def print_json(dict, choice):
     for recipe in dict['recipes']:
         if recipe['name'] == choice['recipe']:
@@ -208,7 +248,7 @@ def count_to_three():
         print(i[0:count])
         count -= 1
         time.sleep(0.5)  # Pause for 1 second between prints
-    print("\n\n\n")
+    print("\n")
 
 
 def return_to_main():
