@@ -99,7 +99,7 @@ def asian_menu():
             inquirer.List('recipe',
                           message=f'Currently there are {get_chinese_recipe_length} cuisines available.'
                                   f'Here is what we have on selection',
-                          choices=['Fried Rice', 'Orange Chicken', 'Beef Broccoli', '<-- Back', "MAIN MENU"])
+                          choices=['Fried Rice', 'Orange Chicken', 'Beef Broccoli', 'Chow Mein', 'General Tso Chicken', '<-- Back', "MAIN MENU"])
         ]
         choice = inquirer.prompt(questions)
 
@@ -108,14 +108,26 @@ def asian_menu():
         elif choice['recipe'] == "MAIN MENU":
             return_to_main()
 
+        clear_screen()
         print_json(chinese_recipes, choice)
+        question = [
+            inquirer.List('confirm',
+                          message="Would you like to see any other recipes?",
+                          choices=['Yes', 'No'])
+        ]
+
+        response = inquirer.prompt(question)
+        if response['confirm'] == "Yes":
+            asian_menu()
+        else:
+            return_to_main()
 
     elif answer['cuisine'] == 'Thai':
         questions = [
             inquirer.List('recipe',
                           message=f'Currently there are {get_thai_recipe_length} cuisines available.'
                                   f'Here is what we have on selection',
-                          choices=['Green Curry', 'Satay Chicken', 'Pad Thai', '<-- Back', "MAIN MENU"])
+                          choices=['Green Curry', 'Satay Chicken', 'Pad Thai', 'Tom Yum Soup', '<-- Back', "MAIN MENU"])
         ]
         choice = inquirer.prompt(questions)
 
@@ -124,7 +136,20 @@ def asian_menu():
         elif choice['recipe'] == "MAIN MENU":
             return_to_main()
 
+        clear_screen()
         print_json(thai_recipes, choice)
+
+        question = [
+            inquirer.List('confirm',
+                          message="Would you like to see any other recipes?",
+                          choices=['Yes', 'No'])
+        ]
+
+        response = inquirer.prompt(question)
+        if response['confirm'] == "Yes":
+            asian_menu()
+        else:
+            return_to_main()
 
     elif answer['cuisine'] == '<-- Back':
         select_item()
@@ -141,7 +166,7 @@ def mexican_menu():
         inquirer.List('recipe',
                       message=f'Currently there are {get_mexican_recipe_length} cuisines available.'
                               f'Here is what we have on selection',
-                      choices=['Chicken Quesadillas', 'Enchiladas', 'Tortas', '<-- Back', "MAIN MENU"])
+                      choices=['Chicken Quesadillas', 'Enchiladas', 'Tortas', 'Ceviche', 'Burritos', '<-- Back', "MAIN MENU"])
     ]
     choice = inquirer.prompt(questions)
 
@@ -150,7 +175,20 @@ def mexican_menu():
     elif choice['recipe'] == "MAIN MENU":
         return_to_main()
 
+    clear_screen()
     print_json(mexican_recipes, choice)
+
+    question = [
+        inquirer.List('confirm',
+                      message="Would you like to see any other recipes?",
+                      choices=['Yes', 'No'])
+    ]
+
+    response = inquirer.prompt(question)
+    if response['confirm'] == "Yes":
+        mexican_menu()
+    else:
+        return_to_main()
 
 
 def american_menu():
@@ -160,7 +198,7 @@ def american_menu():
         inquirer.List('recipe',
                       message=f'Currently there are {get_american_recipe_length} cuisines available.'
                               f'Here is what we have on selection',
-                      choices=['Hamburgers', 'Spaghetti and Meatballs', '<-- Back', "MAIN MENU"])
+                      choices=['Hamburgers', 'Spaghetti and Meatballs', 'Spinach and Artichoke Dip', 'Pastrami Sandwich', '<-- Back', "MAIN MENU"])
     ]
     
     choice = inquirer.prompt(questions)
@@ -169,7 +207,21 @@ def american_menu():
     elif choice['recipe'] == "MAIN MENU":
         return_to_main()
 
+    # clear the screen in order to improve general visibility after showing the recipe
+    clear_screen()
     print_json(american_recipes, choice)
+
+    question = [
+        inquirer.List('confirm',
+                      message="Would you like to see any other recipes?",
+                      choices=['Yes', 'No'])
+    ]
+
+    response = inquirer.prompt(question)
+    if response['confirm'] == "Yes":
+        american_menu()
+    else:
+        return_to_main()
 
 def get_random_recipe():
     print("Getting your random recipe from the internet...")
@@ -233,6 +285,13 @@ def filter_by_time():
         inquirer.Text('prep_time', message="Choose prep time")
     ]
     answer = inquirer.prompt(question)
+
+    if answer['prep_time'].strip() == "":
+        print("Input cannot be empty. Please input a proper time.\n")
+        filter_by_time()
+    if not answer['prep_time'].isnumeric():
+        print("Please only put numbers in the search. \n")
+        filter_by_time()
 
     # First extract the dictionary values from the list
     for recipe in get_prep_time:
@@ -306,6 +365,7 @@ def name_prep_time(directory, key):
                     if key in item:
                         data = item['name']
                         results.append({recipe_name: prep_time_value})
+
     for items in results:
         for key, value in items.items():
             # get the value of the first item in the value to be able to convert that value to an integer

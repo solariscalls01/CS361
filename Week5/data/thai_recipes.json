@@ -129,6 +129,43 @@
       "servings": 4,
       "prep_time": "30 minutes",
       "cook_time": "15 minutes"
+    },
+    {
+      "name": "Tom Yum Soup",
+      "description": "Tom Yum Soup is a spicy and sour Thai soup loaded with flavors from lemongrass, kaffir lime leaves, and galangal.",
+      "ingredients": {
+        "aromatics": {
+          "lemongrass": "2 stalks lemongrass, sliced",
+          "galangal": "2 inches galangal, sliced (or substitute with ginger)",
+          "kaffir_lime_leaves": "4-6 kaffir lime leaves, torn",
+          "Thai_bird_chilies": "2-4 Thai bird chilies, chopped (adjust to taste)",
+          "shallots": "2 shallots, sliced"
+        },
+        "broth": {
+          "water": "4 cups water or vegetable broth",
+          "fish_sauce": "3 tablespoons fish sauce",
+          "lime_juice": "3 tablespoons lime juice",
+          "sugar": "1 tablespoon sugar"
+        },
+        "protein": {
+          "type": "protein (choose one)",
+          "options": ["12 ounces shrimp, peeled and deveined", "12 ounces chicken breast, thinly sliced", "12 ounces tofu, cubed"]
+        },
+        "vegetables": ["1 cup mushrooms, sliced", "1 tomato, cut into wedges", "1/2 cup baby corn", "1/4 cup cilantro leaves, chopped"],
+        "garnish": ["cilantro leaves", "sliced red chili", "lime wedges"]
+      },
+      "instructions": [
+        "In a pot, bring the water or vegetable broth to a simmer over medium heat.",
+        "Add lemongrass, galangal, kaffir lime leaves, Thai bird chilies, and shallots to the pot. Let it simmer for 5-10 minutes to infuse the flavors.",
+        "Add the protein of your choice (shrimp, chicken, or tofu) to the pot and cook until it's almost done.",
+        "Add mushrooms, tomato wedges, and baby corn to the pot. Let it cook for another 3-5 minutes until the vegetables are tender and the protein is fully cooked.",
+        "Season the soup with fish sauce, lime juice, and sugar. Adjust the seasoning according to your taste preferences.",
+        "Remove the soup from heat and garnish with cilantro leaves, sliced red chili, and lime wedges.",
+        "Serve hot and enjoy your flavorful Tom Yum Soup!"
+      ],
+      "servings": 4,
+      "prep_time": "15 minutes",
+      "cook_time": "20 minutes"
     }
   ]
 }

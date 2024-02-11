@@ -130,6 +130,80 @@
       "servings": 4,
       "prep_time": "20 minutes",
       "cook_time": "15 minutes"
+    },
+    {
+      "name": "Chow Mein",
+      "description": "Chow Mein is a popular Chinese dish made with stir-fried noodles, vegetables, and protein, all coated in a savory sauce.",
+      "ingredients": {
+        "noodles": "8 ounces chow mein noodles or egg noodles",
+        "protein": {
+          "type": "protein (choose one)",
+          "options": ["12 ounces chicken breast, thinly sliced", "12 ounces beef sirloin, thinly sliced", "12 ounces shrimp, peeled and deveined", "12 ounces tofu, cubed"]
+        },
+        "vegetables": ["1 cup sliced bell peppers", "1 cup sliced carrots", "1 cup sliced cabbage", "1 cup sliced mushrooms", "1 cup bean sprouts"],
+        "sauce": {
+          "soy_sauce": "3 tablespoons soy sauce",
+          "oyster_sauce": "2 tablespoons oyster sauce",
+          "sesame_oil": "1 tablespoon sesame oil",
+          "cornstarch": "1 tablespoon cornstarch dissolved in 2 tablespoons water",
+          "sugar": "1 teaspoon sugar",
+          "ginger": "1 tablespoon ginger, minced",
+          "garlic": "3 cloves garlic, minced"
+        },
+        "oil": "2 tablespoons vegetable oil"
+      },
+      "instructions": [
+        "Cook the noodles according to the package instructions until al dente. Drain and set aside.",
+        "In a small bowl, mix together soy sauce, oyster sauce, sesame oil, dissolved cornstarch, and sugar. Set aside.",
+        "Heat vegetable oil in a large skillet or wok over medium-high heat. Add minced garlic and ginger, stir-fry for about 30 seconds until fragrant.",
+        "Add the protein of your choice (chicken, beef, shrimp, or tofu) to the skillet and stir-fry until cooked through. Remove from the skillet and set aside.",
+        "In the same skillet, add more oil if needed. Stir-fry the sliced vegetables until they are tender-crisp.",
+        "Return the protein to the skillet. Add the cooked noodles and the prepared sauce. Toss everything together until well combined and heated through.",
+        "Serve hot, garnished with chopped green onions or sesame seeds if desired.",
+        "Enjoy your delicious homemade Chow Mein!"
+      ],
+      "servings": 4,
+      "prep_time": "15 minutes",
+      "cook_time": "15 minutes"
+    },
+    {
+      "name": "General Tso Chicken",
+      "description": "General Tso Chicken is a popular Chinese-American dish featuring crispy chicken pieces coated in a sweet and tangy sauce.",
+      "ingredients": {
+        "chicken": "1 lb boneless, skinless chicken thighs, cut into bite-sized pieces",
+        "marinade": {
+          "soy_sauce": "2 tablespoons soy sauce",
+          "rice_wine": "1 tablespoon rice wine or dry sherry",
+          "egg": "1 egg, beaten",
+          "cornstarch": "1/4 cup cornstarch"
+        },
+        "sauce": {
+          "soy_sauce": "3 tablespoons soy sauce",
+          "rice_vinegar": "3 tablespoons rice vinegar",
+          "hoisin_sauce": "2 tablespoons hoisin sauce",
+          "chicken_stock": "1/2 cup chicken stock",
+          "sugar": "3 tablespoons sugar",
+          "cornstarch_slurry": "2 tablespoons cornstarch dissolved in 2 tablespoons water"
+        },
+        "vegetables": ["1 cup broccoli florets", "1 bell pepper, diced", "1 small onion, diced"],
+        "oil": "2 cups vegetable oil (for frying)",
+        "garnish": ["Sesame seeds", "Sliced green onions"]
+      },
+      "instructions": [
+        "In a bowl, combine the soy sauce, rice wine, beaten egg, and cornstarch to make the marinade. Add the chicken pieces and mix until well coated. Let it marinate for at least 30 minutes.",
+        "In a separate bowl, mix together the soy sauce, rice vinegar, hoisin sauce, chicken stock, sugar, and cornstarch slurry to make the sauce. Set aside.",
+        "Heat the vegetable oil in a deep skillet or wok over medium-high heat. Once hot, add the marinated chicken pieces in batches and fry until golden brown and crispy. Remove and drain on paper towels.",
+        "In the same skillet, remove excess oil, leaving about 1 tablespoon. Add the diced onion and bell pepper, and stir-fry for 2-3 minutes until slightly softened.",
+        "Add the broccoli florets to the skillet and continue to stir-fry for another 2-3 minutes.",
+        "Pour in the prepared sauce and bring to a simmer. Cook for 2-3 minutes until the sauce thickens.",
+        "Return the fried chicken pieces to the skillet and toss until they are evenly coated with the sauce.",
+        "Garnish with sesame seeds and sliced green onions.",
+        "Serve hot with steamed rice.",
+        "Enjoy your delicious homemade General Tso Chicken!"
+      ],
+      "servings": 4,
+      "prep_time": "45 minutes",
+      "cook_time": "20 minutes"
     }
   ]
 }

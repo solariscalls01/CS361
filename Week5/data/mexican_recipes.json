@@ -105,6 +105,69 @@
       "servings": 4,
       "prep_time": "15 minutes",
       "cook_time": "15 minutes"
+    },
+    {
+      "name": "Ceviche",
+      "description": "Ceviche is a refreshing Latin American dish made with raw fish or seafood marinated in citrus juices, typically lime or lemon, along with various vegetables and spices.",
+      "ingredients": {
+        "fish_or_seafood": "1 lb firm white fish fillets (such as sea bass, halibut, or tilapia), or seafood of your choice (shrimp, scallops, squid), diced",
+        "citrus_juice": "1 cup freshly squeezed lime juice (about 8-10 limes)",
+        "vegetables": ["1 red onion, thinly sliced", "1-2 tomatoes, diced", "1 cucumber, diced", "1 bell pepper, diced", "1-2 jalapeño peppers, thinly sliced (optional for heat)", "1/4 cup cilantro leaves, chopped"],
+        "additional_flavorings": ["1-2 cloves garlic, minced", "1 avocado, diced", "1/4 cup olive oil", "Salt and pepper to taste"],
+        "garnish": ["Lime wedges", "Additional cilantro leaves"],
+        "optional_extras": ["Tortilla chips or crackers", "Hot sauce"]
+      },
+      "instructions": [
+        "In a non-reactive bowl (glass or ceramic), combine the diced fish or seafood with the freshly squeezed lime juice. Make sure the fish is completely submerged in the juice. Cover and refrigerate for at least 30 minutes to 1 hour, or until the fish is opaque and appears 'cooked'.",
+        "While the fish is marinating, prepare the vegetables by slicing and dicing them as instructed. You can also mince the garlic and chop the cilantro.",
+        "Once the fish is 'cooked' in the lime juice, drain off most of the excess liquid, leaving just enough to keep the ceviche moist.",
+        "Add the sliced red onion, diced tomatoes, cucumber, bell pepper, jalapeño peppers (if using), minced garlic, chopped cilantro, diced avocado, and olive oil to the bowl with the fish. Season with salt and pepper to taste.",
+        "Gently toss all the ingredients together until well combined.",
+        "Taste and adjust seasoning as needed. Add more lime juice if desired for extra acidity.",
+        "Cover and refrigerate the ceviche for another 30 minutes to allow the flavors to meld together.",
+        "Before serving, garnish with lime wedges and additional cilantro leaves.",
+        "Serve cold with tortilla chips or crackers on the side, and hot sauce for those who prefer extra heat.",
+        "Enjoy your fresh and flavorful homemade Ceviche!"
+      ],
+      "servings": 4,
+      "prep_time": "20 minutes",
+      "cook_time": "30 minutes (marinating time)"
+    },
+    {
+      "name": "Burritos",
+      "description": "Burritos are a popular Mexican dish consisting of a flour tortilla wrapped around various fillings, such as beans, rice, meat, cheese, and vegetables.",
+      "ingredients": {
+        "tortillas": "4 large flour tortillas",
+        "fillings": {
+          "protein": {
+            "type": "protein (choose one or mix and match)",
+            "options": ["1 lb cooked and shredded chicken", "1 lb cooked and seasoned ground beef", "1 lb cooked and seasoned ground turkey", "1 lb cooked black beans or pinto beans"]
+          },
+          "rice": "2 cups cooked rice (white or brown)",
+          "black_beans": "1 can (15 oz) black beans, drained and rinsed",
+          "cheese": "1 cup shredded cheese (cheddar, Monterey Jack, or Mexican blend)",
+          "vegetables": ["1 bell pepper, diced", "1 onion, diced", "1 cup corn kernels (fresh, frozen, or canned)", "1 tomato, diced"],
+          "sauce": "1/2 cup salsa (store-bought or homemade)",
+          "seasonings": ["1 teaspoon chili powder", "1 teaspoon cumin", "1/2 teaspoon paprika", "Salt and pepper to taste"],
+          "garnish": ["Sour cream", "Guacamole", "Chopped cilantro", "Sliced jalapeños", "Lime wedges"]
+        }
+      },
+      "instructions": [
+        "Preheat your oven to 350°F (175°C).",
+        "In a large skillet, heat some oil over medium heat. Add diced onions and bell peppers and cook until softened, about 5 minutes.",
+        "Add the protein of your choice (shredded chicken, ground beef, ground turkey, or beans) to the skillet along with seasonings (chili powder, cumin, paprika, salt, and pepper). Cook until heated through and well combined with the vegetables.",
+        "Warm the flour tortillas in the microwave or on a dry skillet for a few seconds until they are pliable.",
+        "Lay out each tortilla and layer with cooked rice, black beans, the protein and vegetable mixture, shredded cheese, diced tomatoes, and salsa.",
+        "Fold the sides of the tortilla over the filling, then roll it up tightly into a burrito.",
+        "Place the burritos seam-side down on a baking sheet lined with parchment paper or aluminum foil.",
+        "Bake in the preheated oven for about 10-15 minutes, until the tortillas are lightly crispy and the cheese is melted.",
+        "Remove from the oven and let them cool slightly before serving.",
+        "Garnish with sour cream, guacamole, chopped cilantro, sliced jalapeños, and lime wedges.",
+        "Serve hot and enjoy your homemade Burritos!"
+      ],
+      "servings": 4,
+      "prep_time": "15 minutes",
+      "cook_time": "15 minutes"
     }
   ]
 }
