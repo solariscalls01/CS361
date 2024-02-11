@@ -12,6 +12,11 @@ introduction = "Welcome to the Food Recipe App! Explore delicious recipes with u
 
 closing_statement = "Thank you for choosing Food Recipe App! We appreciate your support and hope our recipes bring joy to your kitchen. Happy cooking!"
 
+
+# used for getting the name and preparation times
+directory = "data/"  # Specify the directory containing your JSON files
+search_key = "prep_time"  # Specify the key you want to search for
+
 ############## Load JSON files ################
 ### CHINESE RECIPE ####
 with open('data/chinese_recipes.json') as chinese:
@@ -55,6 +60,8 @@ def main_menu():
             american_menu()
         elif choice['menu'] == "Random Recipe":
             get_random_recipe()
+        elif choice['menu'] == "Choose by Preparation Time":
+            filter_by_time()
         else:
             print(closing_statement)
             break
@@ -64,7 +71,7 @@ def select_item():
     questions = [
         inquirer.List('menu',
                       message="Which cuisine would you like to make today?",
-                      choices=['Asian Recipes', 'Mexican Recipes', 'American Recipes', 'Random Recipe', 'Quit'],
+                      choices=['Asian Recipes', 'Mexican Recipes', 'American Recipes', 'Random Recipe', "Choose by Preparation Time", 'Quit'],
                       ),
     ]
     answers = inquirer.prompt(questions)
@@ -155,6 +162,7 @@ def american_menu():
                               f'Here is what we have on selection',
                       choices=['Hamburgers', 'Spaghetti and Meatballs', '<-- Back', "MAIN MENU"])
     ]
+    
     choice = inquirer.prompt(questions)
     if choice['recipe'] == '<-- Back':
         main_menu()
@@ -207,13 +215,52 @@ def get_random_recipe():
 
     if answer['question'] == "Yes":
         clear_screen()
-        print("Getting your random recipe from the internet...")
-        count_to_three()
         get_random_recipe()
     else:
         clear_screen()
         return_to_main()
         
+def filter_by_time():
+    """
+    Function to filter and return names of recipes by preparation time.
+    :return:
+    """
+    filtered_items = []
+    get_prep_time = name_prep_time(directory, search_key)
+    print("Find a recipe based off of the preparation time and the recipe name \n"
+          "will be displayed in the list below\n\n")
+    question = [
+        inquirer.Text('prep_time', message="Choose prep time")
+    ]
+    answer = inquirer.prompt(question)
+
+    # First extract the dictionary values from the list
+    for recipe in get_prep_time:
+        for key, value in recipe.items():
+            if isinstance(value, int) and value <= int(answer['prep_time']):
+                filtered_items.append(key)
+
+    if not filtered_items:
+        print("There are currently no items that match that time frame.\n\n")
+    else:
+        print(f"\nThese are the current recipes that take {answer['prep_time']} minutes to make")
+            # Print the list of items based off of filter criteria
+        for recipe_names in filtered_items:
+
+            print(f'\t-{recipe_names}')
+
+    question1 = [
+        inquirer.List('confirm', message="Would you like to select another time frame?",
+                      choices=['Yes', 'No'])
+    ]
+
+    response = inquirer.prompt(question1)
+    if response['confirm'] == "Yes":
+        filter_by_time()
+    else:
+        clear_screen()
+        return_to_main()
+
 
 #######################################################################################
 #######################################################################################
@@ -239,6 +286,35 @@ def print_json(dict, choice):
             print("Cook Time:", recipe['cook_time'])
             print("\n")
 
+def name_prep_time(directory, key):
+    """
+    Function to get the preparation times and create a dictionary pair of the recipe name and prep time.
+    :param directory: located in the data folder
+    :param key: The string value that will be used for the search within the directory JSON files
+    :return: list of dictionary values that contain all of the preparation times for meals with the key being
+    the name of the recipe and value is the prep time
+    """
+    results = []
+    for filename in os.listdir(directory):
+        if filename.endswith(".json"):
+            filepath = os.path.join(directory, filename)
+            with open(filepath, "r") as file:
+                data = json.load(file)
+                for item in data['recipes']:
+                    recipe_name = item['name']
+                    prep_time_value = item['prep_time']
+                    if key in item:
+                        data = item['name']
+                        results.append({recipe_name: prep_time_value})
+    for items in results:
+        for key, value in items.items():
+            # get the value of the first item in the value to be able to convert that value to an integer
+            get_string_value = value.split()[0]
+            convert_to_minutes = int(get_string_value)
+            items[key] = convert_to_minutes
+
+    return results
+
 
 # Counter to simulate loading time when returning to main menu
 def count_to_three():
@@ -247,7 +323,7 @@ def count_to_three():
     for index in range(5):
         print(i[0:count])
         count -= 1
-        time.sleep(0.5)  # Pause for 1 second between prints
+        time.sleep(0.3)  # Pause for 1 second between prints
     print("\n")
 
 
@@ -257,7 +333,7 @@ def return_to_main():
     clear_screen()
     main_menu()
 
-# function to clear the screen when a user returns back to the main menu
+# function to clear the screen when a user returns to the main menu
 def clear_screen():
     if os.name == 'nt':
         _ = os.system('cls')
