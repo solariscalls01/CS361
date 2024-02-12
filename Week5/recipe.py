@@ -62,6 +62,8 @@ def main_menu():
             get_random_recipe()
         elif choice['menu'] == "Choose by Preparation Time":
             filter_by_time()
+        elif choice['menu'] == "FAQ":
+            print_FAQ()
         else:
             print(closing_statement)
             break
@@ -71,7 +73,7 @@ def select_item():
     questions = [
         inquirer.List('menu',
                       message="Which cuisine would you like to make today?",
-                      choices=['Asian Recipes', 'Mexican Recipes', 'American Recipes', 'Random Recipe', "Choose by Preparation Time", 'Quit'],
+                      choices=['Asian Recipes', 'Mexican Recipes', 'American Recipes', 'Random Recipe', "Choose by Preparation Time", 'FAQ', 'Quit'],
                       ),
     ]
     answers = inquirer.prompt(questions)
@@ -318,6 +320,31 @@ def filter_by_time():
         filter_by_time()
     else:
         clear_screen()
+        return_to_main()
+
+def print_FAQ():
+    print("Q: How do I run this program?")
+    print("A: To run this application, ensure you have Python installed on your system, then open your terminal or command prompt,\n navigate to the directory containing the recipe file, and type python recipe.py.\n")
+
+    question = [
+        inquirer.List('confirm',
+                      message="Does that answer your question?",
+                      choices=['Yes', 'No'])
+    ]
+
+    response = inquirer.prompt(question)
+    if response['confirm'] == "Yes":
+        return_to_main()
+    else:
+        question1 = [
+            inquirer.text(message="Please send your question and we will happily respond to your needs as best as we can")
+        ]
+        # answer = inquirer.prompt(question1)
+
+        print("\n\nThanks for your response! We will be sending you back to the main page...")
+
+        # Set timer to allow user to see feedback response before heading to main menu
+        time.sleep(2)
         return_to_main()
 
 
