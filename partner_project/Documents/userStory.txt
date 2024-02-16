@@ -1,0 +1,30 @@
+US1. As a user, I want to see the main menu page so that I can start the quiz
+or exit the quiz by entering the corresponding option.
+
+US2. As a user, I want to access to the About page
+option so that I can obtain the information about the program.
+
+US3. As a user, I want to see the quiz menu page so
+that I can select the level of quizzes (beginner, intermediate, and advanced).
+
+US4. As a user, I want to see the quiz questions which
+are in the multiple-choice format so that I can select the correct option among 4
+options.
+
+US5. As a user, I want to see only one correct option
+so that I can select the option by entering the corresponding number.
+
+US6. As a user, I want to know the correct answer so
+that I can learn if my answer is correct or not.
+
+US7. As a user, after each quiz set execution, I want
+to see the total score so that I can learn how well I did.
+
+US8. As a user, I want to try more quiz questions so
+that I can learn more words.
+
+US9. As a user, I want to access the score history of
+the past my quiz results so that I can see my progress.
+
+US10. As a user, I want to try a new quiz set by
+selecting the new quiz set option so that I can learn new vocabulary
