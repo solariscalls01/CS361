@@ -31,7 +31,8 @@
       ],
       "servings": 4,
       "prep_time": "10 minutes",
-      "cook_time": "10 minutes"
+      "cook_time": "10 minutes",
+      "rating": "****"
     },
     {
       "name": "Spaghetti and Meatballs",
@@ -64,7 +65,8 @@
       ],
       "servings": 4,
       "prep_time": "20 minutes",
-      "cook_time": "30 minutes"
+      "cook_time": "30 minutes",
+      "rating": "***"
     },
     {
       "name": "Spinach and Artichoke Dip",
@@ -94,7 +96,8 @@
       ],
       "servings": 8,
       "prep_time": "10 minutes",
-      "cook_time": "25 minutes"
+      "cook_time": "25 minutes",
+      "rating": "****"
     },
     {
       "name": "Pastrami Sandwich",
@@ -123,7 +126,8 @@
       ],
       "servings": 2,
       "prep_time": "5 minutes",
-      "cook_time": "10 minutes"
+      "cook_time": "10 minutes",
+      "rating": "**"
     }
   ]
 }

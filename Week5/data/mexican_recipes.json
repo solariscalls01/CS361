@@ -34,7 +34,8 @@
       ],
       "servings": 4,
       "prep_time": "15 minutes",
-      "cook_time": "15 minutes"
+      "cook_time": "15 minutes",
+      "rating": "****"
     },
     {
       "name": "Enchiladas",
@@ -72,7 +73,8 @@
       ],
       "servings": 6,
       "prep_time": "20 minutes",
-      "cook_time": "30 minutes"
+      "cook_time": "30 minutes",
+      "rating": "*****"
     },
     {
       "name": "Tortas",
@@ -104,7 +106,8 @@
       ],
       "servings": 4,
       "prep_time": "15 minutes",
-      "cook_time": "15 minutes"
+      "cook_time": "15 minutes",
+      "rating": "***"
     },
     {
       "name": "Ceviche",
@@ -167,7 +170,8 @@
       ],
       "servings": 4,
       "prep_time": "15 minutes",
-      "cook_time": "15 minutes"
+      "cook_time": "15 minutes",
+      "rating": "*****"
     }
   ]
 }

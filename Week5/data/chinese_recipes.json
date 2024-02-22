@@ -42,7 +42,8 @@
       ],
       "servings": 4,
       "prep_time": "15 minutes",
-      "cook_time": "15 minutes"
+      "cook_time": "15 minutes",
+      "rating": "****"
     },
     {
       "name": "Orange Chicken",
@@ -89,7 +90,8 @@
       ],
       "servings": 4,
       "prep_time": "20 minutes",
-      "cook_time": "20 minutes"
+      "cook_time": "20 minutes",
+      "rating": "*****"
     },
     {
       "name": "Beef Broccoli",
@@ -129,7 +131,8 @@
       ],
       "servings": 4,
       "prep_time": "20 minutes",
-      "cook_time": "15 minutes"
+      "cook_time": "15 minutes",
+      "rating": "*****"
     },
     {
       "name": "Chow Mein",
@@ -164,7 +167,8 @@
       ],
       "servings": 4,
       "prep_time": "15 minutes",
-      "cook_time": "15 minutes"
+      "cook_time": "15 minutes",
+      "rating": "***"
     },
     {
       "name": "General Tso Chicken",
@@ -203,7 +207,8 @@
       ],
       "servings": 4,
       "prep_time": "45 minutes",
-      "cook_time": "20 minutes"
+      "cook_time": "20 minutes",
+      "rating": "*****"
     }
   ]
 }
