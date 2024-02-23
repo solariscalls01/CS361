@@ -10,3 +10,4 @@ view the scores.
 The quiz score will generate a text and also print out the score on the CLI.
 
 
+![image](https://github.com/solariscalls01/CS361/assets/107437430/e28ad393-d102-4aa5-a1e3-27042bd30de0)
