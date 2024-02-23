@@ -168,5 +168,3 @@ def advanced_quiz():
             print(f'That is incorrect! The answer is {correct_answer}\n')
 
     print(f"Your final score for this quiz is {correct} / {len(questions)}. Good luck on the next try!")
-
-

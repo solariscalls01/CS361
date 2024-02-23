@@ -1,14 +1,14 @@
 import random
 import time
 
-# Intermediate Japanese Quiz
+# Expert Japanese Quiz
 
 #reference: https://realpython.com/python-quiz-application/
 
-def intermediate_quiz():
-    intro = "Intermediate QUIZ! You will be presented with a Japanese word written in Japanese and 4 options in English.  " \
+def advanced_quiz():
+    intro = "Expert QUIZ! You will be presented with a Japanese word written in Japanese and 4 options in English.  " \
             "\nYour task is to select the correct English option for the given Japanese word." \
-            "\nThe Intermediate level will test your skills for Japanese vocabulary written in Katakana.\n\n"
+            "\nThe Expert level will test your skills for Japanese vocabulary written in Kanji.\n\n"
 
     ready = "You will be given 10 Questions in Katana and your job will be to find the correct translation in English. \nARE YOU READY?\n\n"
 
@@ -20,16 +20,16 @@ def intermediate_quiz():
 
     # answers will always be at the 0 index. Questions will then be shuffled after correct answer variable has been set
     questions = {
-        "Aoi (アオイ) " : ['Blue', 'Red', 'Yellow', 'Black'],
-        "Inu (イヌ )": ["Dog", "Cat", "Bird", "Fish"],
-        "Uchi (ウチ)": ["Home", "Apartment", "Boat", "Dog"],
-        "Eki (エキ)": ["Train Station", "Car", "Motorcycle", "Airplane"],
-        "Okashi (オカシ)": ["Sweets", "Chips", "Candy", "Ice Cream"],
-        "Kasa (カサ)": ["Umbrella", "Cane", "Chair", "Table"],
-        "Kitsune (キツネ)": ["Fox", "Cat", "Cow", "Deer"],
-        "Kuruma (クルマ)": ['Car', "Bicycle", "Motorcycle", "Skateboard"],
-        "Sensei (センセイ)": ["Teacher", "Student", "Friend", "Principle"],
-        "Natsu (ナツ)": ["Summer", "Winter", "Fall", "Spring"]
+        "Hito (人)" : ['Person', 'Child', 'Dog', 'Cat'],
+        "Nihon (日本)": ["Japan", "Korea", "China", "Europe"],
+        "Gakkou (学校)": ["School", "Work", "Market", "Shopping Mall"],
+        "Ashita (明日)": ["Tomorrow", "Today", "Yesterday", "Next Week"],
+        "Hon (本)": ["Book", "News Paper", "Magazine", "Notebook"],
+        "Isha (医者)": ["Doctor", "Nurse", "Patient", "Pharmacist"],
+        "Ame (雨)": ["Rain", "Sun", "Wind", "Snow"],
+        "Hana (花)": ['Flower', "Butterfly", "Tree", "Bird"],
+        "Kinyoubi (金曜日)": ["Friday", "Saturday", "Monday", "Tuesday"],
+        "Taberu (べる)": ["To Eat", "To Drink", "To Sleep", "To Run"]
     }
 
     for question, answer in questions.items():
@@ -55,3 +55,9 @@ def intermediate_quiz():
 
     print(f"Your final score for this quiz is {correct} / {len(questions)}. Good luck on the next try!")
 
+    # write the quiz score to the text file
+    with open('score.txt', 'w') as d:
+        d.write(f"Student Scored: {correct}/ {len(questions)} (ADVANCED)")
+        d.close()
+
+advanced_quiz()

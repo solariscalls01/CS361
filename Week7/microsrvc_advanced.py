@@ -3,7 +3,9 @@ import time
 
 # Expert Japanese Quiz
 
-def run():
+#reference: https://realpython.com/python-quiz-application/
+
+def advanced_quiz():
     intro = "Expert QUIZ! You will be presented with a Japanese word written in Japanese and 4 options in English.  " \
             "\nYour task is to select the correct English option for the given Japanese word." \
             "\nThe Expert level will test your skills for Japanese vocabulary written in Kanji.\n\n"
@@ -52,6 +54,3 @@ def run():
             print(f'That is incorrect! The answer is {correct_answer}\n')
 
     print(f"Your final score for this quiz is {correct} / {len(questions)}. Good luck on the next try!")
-
-
-run()

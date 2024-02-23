@@ -8,7 +8,7 @@ import subprocess
 print("Hello Welcome to the Japanese Vocabulary Quiz program. \n")
 
 uInput = ' '
-print("Please enter 1 if you want to try or 2 to quit. 3 for the information on this program.\n")
+print("Please enter 1 if you want to try or 2 to quit. 3 for the information on this program. 4 to view the quiz scores\n")
 while uInput != '2':
          uInput = input("your choice: ")
          if (uInput == str(1)):
@@ -22,6 +22,11 @@ while uInput != '2':
             file = open('aboutProgram.txt', 'r')
             content = file.read()
             print(content)
-            file.close
+            file.close()
+         elif (uInput == str(4)):
+             file = open('score.txt', 'r')
+             content = file.read()
+             print(content)
+             file.close()
          else:
             print("Please enter a correct option: 1, 2, 3")

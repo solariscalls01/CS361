@@ -1,9 +1,6 @@
-import random
-import time
+#reference: https://realpython.com/python-quiz-application/
 
-# Beginner Japanese Quiz
-
-def run():
+def beginner_quiz():
     intro = "Beginner QUIZ! You will be presented with a Japanese word written in Japanese and 4 options in English.  " \
             "\nYour task is to select the correct English option for the given Japanese word." \
             "\nThe Beignner level will test your skills for Japanese vocabulary written in Hiragana.\n\n"
@@ -52,6 +49,3 @@ def run():
             print(f'That is incorrect! The answer is {correct_answer}\n')
 
     print(f"Your final score for this quiz is {correct} / {len(questions)}. Good luck on the next try!")
-
-
-run()

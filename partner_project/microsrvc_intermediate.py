@@ -55,3 +55,9 @@ def intermediate_quiz():
 
     print(f"Your final score for this quiz is {correct} / {len(questions)}. Good luck on the next try!")
 
+    # write the quiz score to the text file
+    with open('score.txt', 'w') as d:
+        d.write(f"Student Scored: {correct}/ {len(questions)} (INTERMEDIATE SCORE)")
+        d.close()
+
+intermediate_quiz()

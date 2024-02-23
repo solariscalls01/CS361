@@ -14,15 +14,26 @@ while uInput != "6":
         uInput = input("your choice: ")
         if (uInput == str(1)):
                 print("You will be navigated to the Beginner level.")
-                theproc = subprocess.Popen([sys.executable, "beginner.py"])
+
+                # SECTION WHERE MICROSERVICE IS CALLED.
+                with open("quiz_microservice.txt", 'w') as f:
+                        f.write('run')
+                        f.close()
+                theproc = subprocess.Popen([sys.executable, "microsrvc_beginner.py"])
                 theproc.communicate()
         elif (uInput == str(2)):
                 print("You will be navigated to the Intermediate level.")
-                theproc = subprocess.Popen([sys.executable, "intermediate.py"])
+                with open("quiz_microservice.txt", 'w') as f:
+                        f.write('run')
+                        f.close()
+                theproc = subprocess.Popen([sys.executable, "microsrvc_intermediate.py"])
                 theproc.communicate()
         elif (uInput == str(3)):
                 print("You will be navigate to the Advanced level.")
-                theproc = subprocess.Popen([sys.executable, "advanced.py"])
+                with open("quiz_microservice.txt", 'w') as f:
+                        f.write('run')
+                        f.close()
+                theproc = subprocess.Popen([sys.executable, "microsrvc_advanced.py"])
                 theproc.communicate()
         elif (uInput == str(4)):
                 print("You will be returned to the Main menu.")
