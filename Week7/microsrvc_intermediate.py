@@ -20,14 +20,14 @@ def run():
     questions = {
         "Aoi (アオイ) " : ['Blue', 'Red', 'Yellow', 'Black'],
         "Inu (イヌ )": ["Dog", "Cat", "Bird", "Fish"],
-        "Uchi (ウチ )": ["Home", "Apartment", "Boat", "Dog"],
-        "Eki (エキ )": ["Train Station", "Car", "Motorcycle", "Airplane"],
-        "Okashi (オカシ )": ["Sweets", "Chips", "Candy", "Ice Cream"],
-        "Kasa (カサ )": ["Umbrella", "Cane", "Chair", "Table"],
-        "Kitsune (キツネ )": ["Fox", "Cat", "Cow", "Deer"],
-        "Kuruma (クルマ )": ['Car', "Bicycle", "Motorcycle", "Skateboard"],
-        "Sensei (センセイ )": ["Teacher", "Student", "Friend", "Principle"],
-        "Natsu (ナツ )": ["Summer", "Winter", "Fall", "Spring"]
+        "Uchi (ウチ)": ["Home", "Apartment", "Boat", "Dog"],
+        "Eki (エキ)": ["Train Station", "Car", "Motorcycle", "Airplane"],
+        "Okashi (オカシ)": ["Sweets", "Chips", "Candy", "Ice Cream"],
+        "Kasa (カサ)": ["Umbrella", "Cane", "Chair", "Table"],
+        "Kitsune (キツネ)": ["Fox", "Cat", "Cow", "Deer"],
+        "Kuruma (クルマ)": ['Car', "Bicycle", "Motorcycle", "Skateboard"],
+        "Sensei (センセイ)": ["Teacher", "Student", "Friend", "Principle"],
+        "Natsu (ナツ)": ["Summer", "Winter", "Fall", "Spring"]
     }
 
     for question, answer in questions.items():
