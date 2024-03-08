@@ -1,0 +1,175 @@
+{
+  "recipes": [
+    {
+      "name": "Green Curry",
+      "description": "Green curry is a classic Thai dish known for its vibrant color and bold flavors.",
+      "ingredients": {
+        "green_curry_paste": {
+          "green_chilies": "4-6 green Thai chilies, chopped (adjust to taste)",
+          "lemongrass": "2 stalks lemongrass, sliced",
+          "shallots": "2 shallots, chopped",
+          "garlic": "4 cloves garlic, chopped",
+          "galangal": "1-inch piece galangal, chopped (or substitute with ginger)",
+          "cilantro_stems": "1/4 cup cilantro stems, chopped",
+          "coriander_seeds": "1 teaspoon coriander seeds, toasted and ground",
+          "cumin_seeds": "1/2 teaspoon cumin seeds, toasted and ground",
+          "shrimp_paste": "1 teaspoon shrimp paste (optional)",
+          "lime_zest": "Zest of 1 lime",
+          "lime_juice": "Juice of 1 lime"
+        },
+        "protein": {
+          "type": "protein (choose one)",
+          "options": ["12 ounces chicken breast, thinly sliced", "12 ounces tofu, cubed", "12 ounces shrimp, peeled and deveined", "12 ounces firm white fish, such as cod or halibut, cut into chunks"]
+        },
+        "vegetables": ["1 cup sliced bell peppers", "1 cup sliced carrots", "1 cup sliced zucchini", "1 cup sliced bamboo shoots"],
+        "curry": {
+          "coconut_milk": "2 cups coconut milk",
+          "vegetable_broth": "1 cup vegetable broth",
+          "fish_sauce": "2 tablespoons fish sauce",
+          "brown_sugar": "1 tablespoon brown sugar",
+          "kaffir_lime_leaves": "4 kaffir lime leaves, torn (or substitute with lime zest)",
+          "Thai_basil_leaves": "1/4 cup Thai basil leaves, torn",
+          "salt": "Salt, to taste"
+        },
+        "oil": "2 tablespoons vegetable oil"
+      },
+      "instructions": [
+        "In a food processor or blender, combine all the ingredients for the green curry paste. Blend until a smooth paste forms, adding a little water if needed to help blend.",
+        "In a large skillet or wok, heat the vegetable oil over medium heat. Add the green curry paste and cook for 2-3 minutes, stirring constantly, until fragrant.",
+        "Add the protein of your choice (chicken, tofu, shrimp, or fish) to the skillet and cook until browned on all sides.",
+        "Add the sliced vegetables to the skillet and stir-fry for another 2-3 minutes.",
+        "Pour in the coconut milk and vegetable broth. Stir to combine.",
+        "Add the fish sauce, brown sugar, torn kaffir lime leaves (or lime zest), and salt to taste. Stir well.",
+        "Bring the curry to a simmer and let it cook for 8-10 minutes, or until the vegetables are tender and the protein is cooked through.",
+        "Taste and adjust the seasoning if needed.",
+        "Remove the curry from heat and stir in the torn Thai basil leaves.",
+        "Serve the green curry hot over steamed jasmine rice.",
+        "Enjoy your delicious homemade Green Curry!"
+      ],
+      "servings": 4,
+      "prep_time": "20 minutes",
+      "cook_time": "20 minutes",
+      "rating": "****"
+    },
+    {
+      "name": "Satay Chicken",
+      "description": "Satay chicken is a popular Southeast Asian dish consisting of marinated and grilled chicken skewers served with a flavorful peanut sauce.",
+      "ingredients": {
+        "chicken": "1 lb chicken breast, cut into thin strips or cubes",
+        "marinade": {
+          "coconut_milk": "1/2 cup coconut milk",
+          "soy_sauce": "2 tablespoons soy sauce",
+          "brown_sugar": "2 tablespoons brown sugar",
+          "lemongrass": "2 stalks lemongrass, minced",
+          "garlic": "2 cloves garlic, minced",
+          "ginger": "1 tablespoon fresh ginger, grated",
+          "turmeric": "1 teaspoon ground turmeric",
+          "coriander": "1 teaspoon ground coriander",
+          "cumin": "1 teaspoon ground cumin",
+          "lime_juice": "2 tablespoons lime juice"
+        },
+        "peanut_sauce": {
+          "peanut_butter": "1/2 cup peanut butter",
+          "coconut_milk": "1/2 cup coconut milk",
+          "soy_sauce": "2 tablespoons soy sauce",
+          "brown_sugar": "2 tablespoons brown sugar",
+          "lime_juice": "2 tablespoons lime juice",
+          "sriracha": "1-2 teaspoons sriracha sauce (adjust to taste)"
+        },
+        "skewers": "Bamboo skewers, soaked in water for 30 minutes",
+        "oil": "1 tablespoon vegetable oil"
+      },
+      "instructions": [
+        "In a bowl, combine all the ingredients for the marinade. Add the chicken strips or cubes and toss until well coated. Cover and refrigerate for at least 1 hour, or overnight for best results.",
+        "Preheat grill to medium-high heat.",
+        "Thread the marinated chicken onto the soaked skewers.",
+        "Place the chicken skewers on the preheated grill and cook for 5-7 minutes per side, or until the chicken is cooked through and has grill marks.",
+        "While the chicken is grilling, prepare the peanut sauce. In a small saucepan, combine all the peanut sauce ingredients over medium heat. Stir continuously until the sauce is smooth and heated through. If the sauce is too thick, you can thin it out with a little water.",
+        "Remove the chicken skewers from the grill and transfer them to a serving platter.",
+        "Serve the satay chicken skewers with the peanut sauce on the side for dipping.",
+        "Enjoy your delicious homemade Satay Chicken!"
+      ],
+      "servings": 4,
+      "prep_time": "75 minutes",
+      "cook_time": "10-14 minutes",
+      "rating": "***"
+    },
+    {
+      "name": "Pad Thai",
+      "description": "Pad Thai is a popular Thai stir-fried noodle dish. It's sweet, sour, and savory with a touch of spice.",
+      "ingredients": {
+        "noodles": "8 ounces rice noodles",
+        "protein": {
+          "type": "protein (choose one)",
+          "options": ["8 ounces tofu, sliced into cubes", "8 ounces shrimp, peeled and deveined", "8 ounces chicken breast, thinly sliced"]
+        },
+        "vegetables": ["1 cup bean sprouts", "1 cup sliced bell peppers", "1 cup sliced carrots", "1 cup sliced green onions"],
+        "sauce": {
+          "tamarind_paste": "2 tablespoons tamarind paste",
+          "fish_sauce": "3 tablespoons fish sauce",
+          "soy_sauce": "2 tablespoons soy sauce",
+          "brown_sugar": "2 tablespoons brown sugar",
+          "lime_juice": "2 tablespoons lime juice",
+          "sriracha": "1-2 teaspoons sriracha sauce (adjust to taste)"
+        },
+        "garnish": ["1/4 cup chopped peanuts", "Lime wedges", "Chopped cilantro"],
+        "optional": ["1 egg, lightly beaten", "1/2 cup sliced tofu for extra protein"],
+        "oil": "2 tablespoons vegetable oil"
+      },
+      "instructions": [
+        "Soak the rice noodles in warm water for about 30 minutes until they are pliable but not too soft. Drain and set aside.",
+        "In a small bowl, mix together all the ingredients for the sauce until well combined. Set aside.",
+        "In a large skillet or wok, heat the vegetable oil over medium-high heat. Add the protein of your choice (tofu, shrimp, or chicken) and cook until browned and cooked through. Remove from the skillet and set aside.",
+        "In the same skillet, add a little more oil if needed. Add the vegetables and stir-fry until they are tender but still crisp.",
+        "Push the vegetables to one side of the skillet and pour the beaten egg (if using) into the other side. Scramble the egg until fully cooked, then mix it with the vegetables.",
+        "Add the soaked rice noodles and the sauce to the skillet. Toss everything together until the noodles are well coated in the sauce and heated through.",
+        "Return the cooked protein to the skillet and toss to combine with the noodles and vegetables.",
+        "Remove from heat and transfer the Pad Thai to serving plates.",
+        "Garnish with chopped peanuts, lime wedges, and chopped cilantro before serving.",
+        "Enjoy your delicious homemade Pad Thai!"
+      ],
+      "servings": 4,
+      "prep_time": "30 minutes",
+      "cook_time": "15 minutes",
+      "rating": "*****"
+    },
+    {
+      "name": "Tom Yum Soup",
+      "description": "Tom Yum Soup is a spicy and sour Thai soup loaded with flavors from lemongrass, kaffir lime leaves, and galangal.",
+      "ingredients": {
+        "aromatics": {
+          "lemongrass": "2 stalks lemongrass, sliced",
+          "galangal": "2 inches galangal, sliced (or substitute with ginger)",
+          "kaffir_lime_leaves": "4-6 kaffir lime leaves, torn",
+          "Thai_bird_chilies": "2-4 Thai bird chilies, chopped (adjust to taste)",
+          "shallots": "2 shallots, sliced"
+        },
+        "broth": {
+          "water": "4 cups water or vegetable broth",
+          "fish_sauce": "3 tablespoons fish sauce",
+          "lime_juice": "3 tablespoons lime juice",
+          "sugar": "1 tablespoon sugar"
+        },
+        "protein": {
+          "type": "protein (choose one)",
+          "options": ["12 ounces shrimp, peeled and deveined", "12 ounces chicken breast, thinly sliced", "12 ounces tofu, cubed"]
+        },
+        "vegetables": ["1 cup mushrooms, sliced", "1 tomato, cut into wedges", "1/2 cup baby corn", "1/4 cup cilantro leaves, chopped"],
+        "garnish": ["cilantro leaves", "sliced red chili", "lime wedges"]
+      },
+      "instructions": [
+        "In a pot, bring the water or vegetable broth to a simmer over medium heat.",
+        "Add lemongrass, galangal, kaffir lime leaves, Thai bird chilies, and shallots to the pot. Let it simmer for 5-10 minutes to infuse the flavors.",
+        "Add the protein of your choice (shrimp, chicken, or tofu) to the pot and cook until it's almost done.",
+        "Add mushrooms, tomato wedges, and baby corn to the pot. Let it cook for another 3-5 minutes until the vegetables are tender and the protein is fully cooked.",
+        "Season the soup with fish sauce, lime juice, and sugar. Adjust the seasoning according to your taste preferences.",
+        "Remove the soup from heat and garnish with cilantro leaves, sliced red chili, and lime wedges.",
+        "Serve hot and enjoy your flavorful Tom Yum Soup!"
+      ],
+      "servings": 4,
+      "prep_time": "15 minutes",
+      "cook_time": "20 minutes",
+      "rating": "*****"
+    }
+  ]
+}

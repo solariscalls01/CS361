@@ -1,0 +1,177 @@
+{
+  "recipes": [
+    {
+      "name": "Chicken Quesadillas",
+      "description": "Chicken quesadillas are a classic Mexican dish made with tortillas filled with seasoned chicken and cheese, then grilled until crispy and golden brown.",
+      "ingredients": {
+        "tortillas": "8 small flour tortillas",
+        "chicken": "2 cups cooked chicken breast, shredded",
+        "cheese": "2 cups shredded cheese (cheddar, Monterey Jack, or a blend)",
+        "salsa": "1/2 cup salsa (optional)",
+        "vegetables": ["1/2 cup diced bell peppers", "1/2 cup diced onions"],
+        "seasonings": {
+          "chili_powder": "1 teaspoon chili powder",
+          "cumin": "1 teaspoon ground cumin",
+          "garlic_powder": "1/2 teaspoon garlic powder",
+          "salt": "Salt, to taste",
+          "black_pepper": "Black pepper, to taste"
+        },
+        "oil_for_cooking": "2 tablespoons vegetable oil"
+      },
+      "instructions": [
+        "In a large skillet, heat 1 tablespoon of vegetable oil over medium heat.",
+        "Add the diced onions and bell peppers to the skillet and saute until they are softened.",
+        "Add the shredded chicken to the skillet and season with chili powder, cumin, garlic powder, salt, and black pepper. Cook until the chicken is heated through and well coated with the seasonings.",
+        "Remove the chicken mixture from the skillet and set aside.",
+        "Wipe the skillet clean and return it to the heat. Add a little more oil if needed.",
+        "Place a tortilla in the skillet and sprinkle a handful of shredded cheese evenly over one half of the tortilla.",
+        "Top the cheese with a spoonful of the chicken mixture and a dollop of salsa, if using.",
+        "Fold the tortilla in half over the filling to form a half-moon shape.",
+        "Cook the quesadilla for 2-3 minutes on each side, or until the tortilla is crispy and golden brown and the cheese is melted.",
+        "Repeat with the remaining tortillas and filling ingredients.",
+        "Slice the cooked quesadillas into wedges and serve hot.",
+        "Enjoy your delicious homemade Chicken Quesadillas!"
+      ],
+      "servings": 4,
+      "prep_time": "15 minutes",
+      "cook_time": "15 minutes",
+      "rating": "****"
+    },
+    {
+      "name": "Enchiladas",
+      "description": "Enchiladas are a classic Mexican dish made with corn tortillas rolled around a filling and covered with a savory sauce and cheese.",
+      "ingredients": {
+        "tortillas": "12 corn tortillas",
+        "chicken": "2 cups cooked chicken breast, shredded",
+        "cheese": "2 cups shredded cheese (cheddar, Monterey Jack, or a blend)",
+        "enchilada_sauce": "2 cups enchilada sauce (store-bought or homemade)",
+        "vegetables": ["1/2 cup diced onions", "1/2 cup diced bell peppers", "1/2 cup corn kernels (fresh or frozen)"],
+        "seasonings": {
+          "chili_powder": "1 teaspoon chili powder",
+          "cumin": "1 teaspoon ground cumin",
+          "garlic_powder": "1/2 teaspoon garlic powder",
+          "salt": "Salt, to taste",
+          "black_pepper": "Black pepper, to taste"
+        },
+        "oil_for_cooking": "2 tablespoons vegetable oil"
+      },
+      "instructions": [
+        "Preheat the oven to 375 F (190 C).",
+        "In a large skillet, heat 1 tablespoon of vegetable oil over medium heat.",
+        "Add the diced onions, bell peppers, and corn kernels to the skillet and saute until they are softened.",
+        "Add the shredded chicken to the skillet and season with chili powder, cumin, garlic powder, salt, and black pepper. Cook until the chicken is heated through and well coated with the seasonings.",
+        "Remove the chicken mixture from the skillet and set aside.",
+        "Spread a thin layer of enchilada sauce on the bottom of a baking dish.",
+        "Warm the corn tortillas in the microwave for a few seconds to make them pliable.",
+        "Place a spoonful of the chicken mixture in the center of each tortilla. Roll up the tortillas and place them seam-side down in the baking dish.",
+        "Pour the remaining enchilada sauce over the rolled tortillas, making sure to cover them completely.",
+        "Sprinkle shredded cheese evenly over the top of the enchiladas.",
+        "Cover the baking dish with aluminum foil and bake in the preheated oven for 20-25 minutes, or until the cheese is melted and bubbly.",
+        "Remove the foil and bake for an additional 5 minutes to lightly brown the cheese.",
+        "Serve the enchiladas hot, garnished with chopped cilantro, diced tomatoes, and sliced avocado if desired.",
+        "Enjoy your delicious homemade Enchiladas!"
+      ],
+      "servings": 6,
+      "prep_time": "20 minutes",
+      "cook_time": "30 minutes",
+      "rating": "*****"
+    },
+    {
+      "name": "Tortas",
+      "description": "Tortas are Mexican sandwiches filled with flavorful ingredients and served on crusty bread rolls called bolillos.",
+      "ingredients": {
+        "bread_rolls": "4 bolillo rolls (or substitute with French rolls)",
+        "chicken": "1 lb chicken breasts, grilled and sliced",
+        "avocado": "1 large avocado, sliced",
+        "beans": "1 cup refried beans",
+        "cheese": "1 cup shredded cheese (cheddar, Monterey Jack, or a blend)",
+        "vegetables": ["1/2 cup sliced tomatoes", "1/2 cup sliced onions", "1/2 cup shredded lettuce"],
+        "sauce": "1/2 cup salsa or chipotle mayo (optional)",
+        "seasonings": {
+          "salt": "Salt, to taste",
+          "black_pepper": "Black pepper, to taste"
+        }
+      },
+      "instructions": [
+        "Preheat a grill or grill pan over medium-high heat.",
+        "Season the chicken breasts with salt and black pepper.",
+        "Grill the chicken breasts for 6-8 minutes per side, or until they are cooked through and have grill marks. Remove from the grill and let them rest for a few minutes before slicing.",
+        "Slice the bolillo rolls in half lengthwise, leaving one side attached.",
+        "Spread a layer of refried beans on the bottom half of each bolillo roll.",
+        "Layer the sliced chicken, avocado, tomatoes, onions, lettuce, and shredded cheese on top of the refried beans.",
+        "If desired, spread salsa or chipotle mayo on the top half of the bolillo roll before placing it on top of the sandwich.",
+        "Press down gently on the sandwich to flatten it slightly.",
+        "Serve the tortas immediately, whole or sliced in half, with additional salsa or chipotle mayo on the side if desired.",
+        "Enjoy your delicious homemade Tortas!"
+      ],
+      "servings": 4,
+      "prep_time": "15 minutes",
+      "cook_time": "15 minutes",
+      "rating": "***"
+    },
+    {
+      "name": "Ceviche",
+      "description": "Ceviche is a refreshing Latin American dish made with raw fish or seafood marinated in citrus juices, typically lime or lemon, along with various vegetables and spices.",
+      "ingredients": {
+        "fish_or_seafood": "1 lb firm white fish fillets (such as sea bass, halibut, or tilapia), or seafood of your choice (shrimp, scallops, squid), diced",
+        "citrus_juice": "1 cup freshly squeezed lime juice (about 8-10 limes)",
+        "vegetables": ["1 red onion, thinly sliced", "1-2 tomatoes, diced", "1 cucumber, diced", "1 bell pepper, diced", "1-2 jalapeño peppers, thinly sliced (optional for heat)", "1/4 cup cilantro leaves, chopped"],
+        "additional_flavorings": ["1-2 cloves garlic, minced", "1 avocado, diced", "1/4 cup olive oil", "Salt and pepper to taste"],
+        "garnish": ["Lime wedges", "Additional cilantro leaves"],
+        "optional_extras": ["Tortilla chips or crackers", "Hot sauce"]
+      },
+      "instructions": [
+        "In a non-reactive bowl (glass or ceramic), combine the diced fish or seafood with the freshly squeezed lime juice. Make sure the fish is completely submerged in the juice. Cover and refrigerate for at least 30 minutes to 1 hour, or until the fish is opaque and appears 'cooked'.",
+        "While the fish is marinating, prepare the vegetables by slicing and dicing them as instructed. You can also mince the garlic and chop the cilantro.",
+        "Once the fish is 'cooked' in the lime juice, drain off most of the excess liquid, leaving just enough to keep the ceviche moist.",
+        "Add the sliced red onion, diced tomatoes, cucumber, bell pepper, jalapeño peppers (if using), minced garlic, chopped cilantro, diced avocado, and olive oil to the bowl with the fish. Season with salt and pepper to taste.",
+        "Gently toss all the ingredients together until well combined.",
+        "Taste and adjust seasoning as needed. Add more lime juice if desired for extra acidity.",
+        "Cover and refrigerate the ceviche for another 30 minutes to allow the flavors to meld together.",
+        "Before serving, garnish with lime wedges and additional cilantro leaves.",
+        "Serve cold with tortilla chips or crackers on the side, and hot sauce for those who prefer extra heat.",
+        "Enjoy your fresh and flavorful homemade Ceviche!"
+      ],
+      "servings": 4,
+      "prep_time": "20 minutes",
+      "cook_time": "30 minutes (marinating time)"
+    },
+    {
+      "name": "Burritos",
+      "description": "Burritos are a popular Mexican dish consisting of a flour tortilla wrapped around various fillings, such as beans, rice, meat, cheese, and vegetables.",
+      "ingredients": {
+        "tortillas": "4 large flour tortillas",
+        "fillings": {
+          "protein": {
+            "type": "protein (choose one or mix and match)",
+            "options": ["1 lb cooked and shredded chicken", "1 lb cooked and seasoned ground beef", "1 lb cooked and seasoned ground turkey", "1 lb cooked black beans or pinto beans"]
+          },
+          "rice": "2 cups cooked rice (white or brown)",
+          "black_beans": "1 can (15 oz) black beans, drained and rinsed",
+          "cheese": "1 cup shredded cheese (cheddar, Monterey Jack, or Mexican blend)",
+          "vegetables": ["1 bell pepper, diced", "1 onion, diced", "1 cup corn kernels (fresh, frozen, or canned)", "1 tomato, diced"],
+          "sauce": "1/2 cup salsa (store-bought or homemade)",
+          "seasonings": ["1 teaspoon chili powder", "1 teaspoon cumin", "1/2 teaspoon paprika", "Salt and pepper to taste"],
+          "garnish": ["Sour cream", "Guacamole", "Chopped cilantro", "Sliced jalapeños", "Lime wedges"]
+        }
+      },
+      "instructions": [
+        "Preheat your oven to 350°F (175°C).",
+        "In a large skillet, heat some oil over medium heat. Add diced onions and bell peppers and cook until softened, about 5 minutes.",
+        "Add the protein of your choice (shredded chicken, ground beef, ground turkey, or beans) to the skillet along with seasonings (chili powder, cumin, paprika, salt, and pepper). Cook until heated through and well combined with the vegetables.",
+        "Warm the flour tortillas in the microwave or on a dry skillet for a few seconds until they are pliable.",
+        "Lay out each tortilla and layer with cooked rice, black beans, the protein and vegetable mixture, shredded cheese, diced tomatoes, and salsa.",
+        "Fold the sides of the tortilla over the filling, then roll it up tightly into a burrito.",
+        "Place the burritos seam-side down on a baking sheet lined with parchment paper or aluminum foil.",
+        "Bake in the preheated oven for about 10-15 minutes, until the tortillas are lightly crispy and the cheese is melted.",
+        "Remove from the oven and let them cool slightly before serving.",
+        "Garnish with sour cream, guacamole, chopped cilantro, sliced jalapeños, and lime wedges.",
+        "Serve hot and enjoy your homemade Burritos!"
+      ],
+      "servings": 4,
+      "prep_time": "15 minutes",
+      "cook_time": "15 minutes",
+      "rating": "*****"
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "recipes": [
+    {
+      "name": "Fried Rice",
+      "description": "Fried rice is a versatile and delicious dish made by stir-frying cooked rice with vegetables, protein, and flavorful seasonings.",
+      "ingredients": {
+        "cooked_rice": "4 cups cooked rice, preferably chilled (day-old rice works best)",
+        "protein": {
+          "options": ["8 ounces cooked chicken, diced or ", "8 ounces cooked shrimp, peeled and deveined or ", "8 ounces firm tofu, diced", "2 eggs, beaten"]
+        },
+        "vegetables": ["1 cup diced carrots", "1 cup frozen peas", "1 cup diced bell peppers", "1 cup sliced green onions"],
+        "aromatics": {
+          "garlic": "3 cloves garlic, minced",
+          "ginger": "1 tablespoon fresh ginger, minced"
+        },
+        "seasonings": {
+          "soy_sauce": "3 tablespoons soy sauce",
+          "sesame_oil": "1 tablespoon sesame oil",
+          "rice_vinegar": "1 tablespoon rice vinegar",
+          "oyster_sauce": "1 tablespoon oyster sauce (optional)",
+          "salt": "Salt, to taste",
+          "black_pepper": "Black pepper, to taste"
+        },
+        "oil_for_stir-frying": "2 tablespoons vegetable oil"
+      },
+      "instructions": [
+        "In a large skillet or wok, heat 1 tablespoon of vegetable oil over medium-high heat.",
+        "Add the beaten eggs to the skillet and scramble until fully cooked. Remove the eggs from the skillet and set aside.",
+        "Add the remaining tablespoon of vegetable oil to the skillet. Add the minced garlic and ginger, and sauté for 1-2 minutes until fragrant.",
+        "Add the diced carrots to the skillet and stir-fry for 2-3 minutes until slightly softened.",
+        "Add the diced protein (chicken, shrimp, tofu) to the skillet and stir-fry until heated through.",
+        "Add the frozen peas, diced bell peppers, and sliced green onions to the skillet. Stir-fry for another 2-3 minutes until the vegetables are tender.",
+        "Add the cooked rice to the skillet, breaking up any clumps with a spatula.",
+        "Drizzle the soy sauce, sesame oil, rice vinegar, and oyster sauce (if using) over the rice. Stir well to combine and evenly distribute the seasonings.",
+        "Continue to stir-fry the rice for 5-6 minutes, or until heated through and slightly crispy.",
+        "Taste the fried rice and adjust the seasoning with salt and black pepper as needed.",
+        "Return the scrambled eggs to the skillet and toss everything together until evenly mixed.",
+        "Remove the skillet from heat and transfer the fried rice to serving plates.",
+        "Garnish with sliced green onions and toasted sesame seeds.",
+        "Serve the fried rice hot, optionally garnished with chopped cilantro and accompanied by sriracha or chili sauce on the side.",
+        "Enjoy your delicious homemade Fried Rice!"
+      ],
+      "servings": 4,
+      "prep_time": "15 minutes",
+      "cook_time": "15 minutes",
+      "rating": "****"
+    },
+    {
+      "name": "Orange Chicken",
+      "description": "Orange chicken is a popular Chinese-American dish known for its tangy, sweet, and savory flavor.",
+      "ingredients": {
+        "chicken": "1 lb boneless, skinless chicken breast or thigh, cut into bite-sized pieces",
+        "batter": {
+          "cornstarch": "1 cup cornstarch",
+          "egg": "1 egg",
+          "salt": "1 teaspoon salt",
+          "black_pepper": "1/2 teaspoon black pepper",
+          "garlic_powder": "1/2 teaspoon garlic powder",
+          "ginger_powder": "1/2 teaspoon ginger powder",
+          "water": "1 cup water"
+        },
+        "orange_sauce": {
+          "orange_juice": "1 cup fresh orange juice",
+          "orange_zest": "Zest of 1 orange",
+          "soy_sauce": "2 tablespoons soy sauce",
+          "rice_vinegar": "2 tablespoons rice vinegar",
+          "brown_sugar": "1/4 cup brown sugar",
+          "cornstarch_slurry": "2 tablespoons cornstarch mixed with 2 tablespoons water",
+          "vegetable_oil": "1 tablespoon vegetable oil",
+          "garlic": "2 cloves garlic, minced",
+          "ginger": "1 tablespoon fresh ginger, minced",
+          "green_onions": "2 green onions, thinly sliced",
+          "sesame_seeds": "1 tablespoon sesame seeds (for garnish)"
+        },
+        "oil_for_frying": "Vegetable oil, for frying"
+      },
+      "instructions": [
+        "In a large bowl, whisk together all the ingredients for the batter until smooth.",
+        "Add the chicken pieces to the batter and toss until they are evenly coated.",
+        "In a large skillet or deep fryer, heat vegetable oil to 350°F (180°C).",
+        "Carefully add the battered chicken pieces to the hot oil in batches, making sure not to overcrowd the pan. Fry for 4-5 minutes, or until golden brown and crispy. Remove from the oil and drain on a paper towel-lined plate. Repeat with the remaining chicken.",
+        "In a separate saucepan, heat 1 tablespoon of vegetable oil over medium heat. Add the minced garlic and ginger, and sauté for 1-2 minutes until fragrant.",
+        "Add the orange juice, orange zest, soy sauce, rice vinegar, and brown sugar to the saucepan. Stir until the sugar is dissolved.",
+        "Bring the sauce to a simmer and cook for 2-3 minutes.",
+        "Stir in the cornstarch slurry and continue to cook until the sauce has thickened, about 2 minutes.",
+        "Add the fried chicken pieces to the saucepan and toss until they are evenly coated with the orange sauce.",
+        "Garnish with thinly sliced green onions and sesame seeds.",
+        "Serve the orange chicken hot with steamed rice or cooked noodles.",
+        "Enjoy your delicious homemade Orange Chicken!"
+      ],
+      "servings": 4,
+      "prep_time": "20 minutes",
+      "cook_time": "20 minutes",
+      "rating": "*****"
+    },
+    {
+      "name": "Beef Broccoli",
+      "description": "Beef broccoli is a classic Chinese stir-fry dish featuring tender beef and crisp broccoli in a savory sauce.",
+      "ingredients": {
+        "beef": "1 lb flank steak, thinly sliced against the grain",
+        "marinade": {
+          "soy_sauce": "3 tablespoons soy sauce",
+          "rice_wine": "2 tablespoons rice wine (or dry sherry)",
+          "cornstarch": "2 teaspoons cornstarch",
+          "sesame_oil": "1 teaspoon sesame oil",
+          "black_pepper": "1/2 teaspoon black pepper"
+        },
+        "sauce": {
+          "oyster_sauce": "1/4 cup oyster sauce",
+          "chicken_broth": "1/2 cup chicken broth",
+          "cornstarch_slurry": "1 tablespoon cornstarch mixed with 2 tablespoons water",
+          "garlic": "3 cloves garlic, minced",
+          "ginger": "1 tablespoon fresh ginger, minced",
+          "vegetable_oil": "2 tablespoons vegetable oil"
+        },
+        "vegetables": ["4 cups broccoli florets"],
+        "oil_for_stir-frying": "2 tablespoons vegetable oil",
+        "garnish": ["Sliced green onions", "Toasted sesame seeds"],
+        "optional": ["Steamed rice, for serving"]
+      },
+      "instructions": [
+        "In a bowl, combine the thinly sliced beef with the marinade ingredients: soy sauce, rice wine, cornstarch, sesame oil, and black pepper. Let it marinate for 15-30 minutes.",
+        "In a small bowl, mix together the oyster sauce, chicken broth, and cornstarch slurry. Set aside.",
+        "Heat a wok or large skillet over high heat. Add 1 tablespoon of vegetable oil. Once hot, add the marinated beef and stir-fry until it's browned on the outside. Remove from the wok and set aside.",
+        "In the same wok or skillet, add another tablespoon of vegetable oil. Add the minced garlic and ginger, and stir-fry for about 30 seconds until fragrant.",
+        "Add the broccoli florets to the wok and stir-fry for 2-3 minutes until they turn bright green and are slightly tender. You may add a splash of water if needed to help cook the broccoli.",
+        "Return the beef to the wok and pour in the sauce mixture. Stir well to combine and let it cook for another 1-2 minutes until the sauce thickens and coats the beef and broccoli.",
+        "Garnish with sliced green onions and toasted sesame seeds.",
+        "Serve the beef broccoli hot over steamed rice.",
+        "Enjoy your delicious homemade Beef Broccoli!"
+      ],
+      "servings": 4,
+      "prep_time": "20 minutes",
+      "cook_time": "15 minutes",
+      "rating": "*****"
+    },
+    {
+      "name": "Chow Mein",
+      "description": "Chow Mein is a popular Chinese dish made with stir-fried noodles, vegetables, and protein, all coated in a savory sauce.",
+      "ingredients": {
+        "noodles": "8 ounces chow mein noodles or egg noodles",
+        "protein": {
+          "type": "protein (choose one)",
+          "options": ["12 ounces chicken breast, thinly sliced", "12 ounces beef sirloin, thinly sliced", "12 ounces shrimp, peeled and deveined", "12 ounces tofu, cubed"]
+        },
+        "vegetables": ["1 cup sliced bell peppers", "1 cup sliced carrots", "1 cup sliced cabbage", "1 cup sliced mushrooms", "1 cup bean sprouts"],
+        "sauce": {
+          "soy_sauce": "3 tablespoons soy sauce",
+          "oyster_sauce": "2 tablespoons oyster sauce",
+          "sesame_oil": "1 tablespoon sesame oil",
+          "cornstarch": "1 tablespoon cornstarch dissolved in 2 tablespoons water",
+          "sugar": "1 teaspoon sugar",
+          "ginger": "1 tablespoon ginger, minced",
+          "garlic": "3 cloves garlic, minced"
+        },
+        "oil": "2 tablespoons vegetable oil"
+      },
+      "instructions": [
+        "Cook the noodles according to the package instructions until al dente. Drain and set aside.",
+        "In a small bowl, mix together soy sauce, oyster sauce, sesame oil, dissolved cornstarch, and sugar. Set aside.",
+        "Heat vegetable oil in a large skillet or wok over medium-high heat. Add minced garlic and ginger, stir-fry for about 30 seconds until fragrant.",
+        "Add the protein of your choice (chicken, beef, shrimp, or tofu) to the skillet and stir-fry until cooked through. Remove from the skillet and set aside.",
+        "In the same skillet, add more oil if needed. Stir-fry the sliced vegetables until they are tender-crisp.",
+        "Return the protein to the skillet. Add the cooked noodles and the prepared sauce. Toss everything together until well combined and heated through.",
+        "Serve hot, garnished with chopped green onions or sesame seeds if desired.",
+        "Enjoy your delicious homemade Chow Mein!"
+      ],
+      "servings": 4,
+      "prep_time": "15 minutes",
+      "cook_time": "15 minutes",
+      "rating": "***"
+    },
+    {
+      "name": "General Tso Chicken",
+      "description": "General Tso Chicken is a popular Chinese-American dish featuring crispy chicken pieces coated in a sweet and tangy sauce.",
+      "ingredients": {
+        "chicken": "1 lb boneless, skinless chicken thighs, cut into bite-sized pieces",
+        "marinade": {
+          "soy_sauce": "2 tablespoons soy sauce",
+          "rice_wine": "1 tablespoon rice wine or dry sherry",
+          "egg": "1 egg, beaten",
+          "cornstarch": "1/4 cup cornstarch"
+        },
+        "sauce": {
+          "soy_sauce": "3 tablespoons soy sauce",
+          "rice_vinegar": "3 tablespoons rice vinegar",
+          "hoisin_sauce": "2 tablespoons hoisin sauce",
+          "chicken_stock": "1/2 cup chicken stock",
+          "sugar": "3 tablespoons sugar",
+          "cornstarch_slurry": "2 tablespoons cornstarch dissolved in 2 tablespoons water"
+        },
+        "vegetables": ["1 cup broccoli florets", "1 bell pepper, diced", "1 small onion, diced"],
+        "oil": "2 cups vegetable oil (for frying)",
+        "garnish": ["Sesame seeds", "Sliced green onions"]
+      },
+      "instructions": [
+        "In a bowl, combine the soy sauce, rice wine, beaten egg, and cornstarch to make the marinade. Add the chicken pieces and mix until well coated. Let it marinate for at least 30 minutes.",
+        "In a separate bowl, mix together the soy sauce, rice vinegar, hoisin sauce, chicken stock, sugar, and cornstarch slurry to make the sauce. Set aside.",
+        "Heat the vegetable oil in a deep skillet or wok over medium-high heat. Once hot, add the marinated chicken pieces in batches and fry until golden brown and crispy. Remove and drain on paper towels.",
+        "In the same skillet, remove excess oil, leaving about 1 tablespoon. Add the diced onion and bell pepper, and stir-fry for 2-3 minutes until slightly softened.",
+        "Add the broccoli florets to the skillet and continue to stir-fry for another 2-3 minutes.",
+        "Pour in the prepared sauce and bring to a simmer. Cook for 2-3 minutes until the sauce thickens.",
+        "Return the fried chicken pieces to the skillet and toss until they are evenly coated with the sauce.",
+        "Garnish with sesame seeds and sliced green onions.",
+        "Serve hot with steamed rice.",
+        "Enjoy your delicious homemade General Tso Chicken!"
+      ],
+      "servings": 4,
+      "prep_time": "45 minutes",
+      "cook_time": "20 minutes",
+      "rating": "*****"
+    }
+  ]
+}
