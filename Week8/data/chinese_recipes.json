@@ -134,6 +134,37 @@
       "cook_time": "15 minutes",
       "rating": "*****"
     },
+      {
+        "name": "Spam Musubi",
+        "description": "Spam Musubi is a Hawaiian snack made with grilled Spam on top of a block of rice, wrapped together with nori seaweed.",
+        "ingredients": {
+          "rice": "2 cups sushi rice",
+          "spam": "1 can Spam",
+          "nori": "1 package nori seaweed sheets",
+          "teriyaki_sauce": "1/4 cup teriyaki sauce",
+          "sugar": "2 tablespoons sugar",
+          "rice_vinegar": "2 tablespoons rice vinegar",
+          "sesame_seeds": "1 tablespoon sesame seeds"
+        },
+        "instructions": [
+          "Cook sushi rice according to package instructions.",
+          "In a small bowl, mix together teriyaki sauce, sugar, and rice vinegar to make the marinade.",
+          "Cut Spam into thin slices and marinate in the sauce for 10 minutes.",
+          "Heat a skillet over medium heat and cook Spam slices until golden brown on both sides.",
+          "Cut nori seaweed sheets into strips wide enough to wrap around the Spam and rice.",
+          "Place a strip of nori on a clean surface and place a block of rice in the center.",
+          "Top the rice with a slice of grilled Spam.",
+          "Wrap the nori around the Spam and rice, sealing the edges with a little water.",
+          "Sprinkle sesame seeds on top.",
+          "Repeat with the remaining ingredients.",
+          "Serve immediately, or pack into a bento box for a delicious snack on the go!",
+          "Enjoy your homemade Spam Musubi!"
+        ],
+        "servings": 4,
+        "prep_time": "20 minutes",
+        "cook_time": "15 minutes",
+        "rating": "*"
+      },
     {
       "name": "Chow Mein",
       "description": "Chow Mein is a popular Chinese dish made with stir-fried noodles, vegetables, and protein, all coated in a savory sauce.",

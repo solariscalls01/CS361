@@ -1,0 +1,7 @@
+{'Orange Chicken': '*****'}
+{'Beef Broccoli': '*****'}
+{'General Tso Chicken': '*****'}
+{'Enchiladas': '*****'}
+{'Burritos': '*****'}
+{'Pad Thai': '*****'}
+{'Tom Yum Soup': '*****'}

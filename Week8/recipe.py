@@ -4,6 +4,7 @@ import os
 import inquirer
 import requests
 import ASCII_Art
+from subprocess import call
 
 #### VARIABLES ####
 
@@ -64,6 +65,8 @@ def main_menu():
             filter_by_time()
         elif choice['menu'] == "FAQ":
             print_FAQ()
+        elif choice['menu'] == "Search by Rating":
+            call(["python", "ratingSearchService.py"])
         else:
             print(closing_statement)
             break
@@ -73,7 +76,7 @@ def select_item():
     questions = [
         inquirer.List('menu',
                       message="Which cuisine would you like to make today?",
-                      choices=['Asian Recipes', 'Mexican Recipes', 'American Recipes', 'Random Recipe', "Choose by Preparation Time", 'FAQ', 'Quit'],
+                      choices=['Asian Recipes', 'Mexican Recipes', 'American Recipes', 'Random Recipe', "Choose by Preparation Time", 'FAQ', "Search by Rating", 'Quit'],
                       ),
     ]
     answers = inquirer.prompt(questions)

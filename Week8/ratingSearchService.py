@@ -1,6 +1,21 @@
 import json
 import os
 import time
+from recipe import clear_screen
+
+# UI takes user command
+print("Please enter the rating: ")
+ratingInput = str(input())
+file1 = open("rating.txt", "r+")
+file1.write(ratingInput)
+time.sleep(1)
+file1.close()
+
+with open("rating.txt", "r+") as f:
+    rating = f.readline()
+    print(f'Searching for {rating} star ratings...')
+    f.close()
+
 def convert_rating_int(rating):
     """
     Function to convert the rating input from user to an integer.  For example, if user enter ***,
@@ -46,6 +61,9 @@ def write_result(file, list):
     :param file a pointer to a file
     :param list a list object
     """
+    # Erase the contents of the searchResults File
+    open('searchResult.txt', 'w').close()
+
     for item in range(len(list)):
        file.write(str(list[item]))
        file.write('\n')
@@ -66,7 +84,9 @@ while True:
         with open("SearchResult.txt") as f:
             f = open("searchResult.txt", "r+")
             line = f.read()
-            print("Search completed. Result:")
+            print("\nSearch completed. Result:")
+            clear_screen()
+            print(f'Here are the list of {rating}-star recipes...\n ')
             print(line)
             f.close()
     else:
