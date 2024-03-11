@@ -3,18 +3,27 @@ import os
 import time
 from recipe import clear_screen
 
-# UI takes user command
-print("Please enter the rating: ")
-ratingInput = str(input())
-file1 = open("rating.txt", "r+")
-file1.write(ratingInput)
-time.sleep(1)
-file1.close()
+with open('rating.txt') as f:
+    get_text = f.read()
+    # print(get_text)
+    if get_text == "run":
+        print("...Loading Please Wait...")
+        time.sleep(2)
+        open('rating.txt','w')
+        # UI takes user command
+        print("Please enter the rating: ")
+        ratingInput = str(input())
+        file1 = open("rating.txt", "r+")
+        file1.write(ratingInput)
+        time.sleep(1)
+        file1.close()
 
-with open("rating.txt", "r+") as f:
-    rating = f.readline()
-    print(f'Searching for {rating} star ratings...')
-    f.close()
+        with open("rating.txt", "r+") as f:
+            rating = f.readline()
+            print(f'Searching for {rating} star ratings...')
+            f.close()
+    else:
+        print("Microservice Unavailable at this time")
 
 def convert_rating_int(rating):
     """
@@ -92,5 +101,3 @@ while True:
     else:
         print("incorrect option")
     break
-
-

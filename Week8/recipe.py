@@ -66,7 +66,10 @@ def main_menu():
         elif choice['menu'] == "FAQ":
             print_FAQ()
         elif choice['menu'] == "Search by Rating":
-            call(["python", "ratingSearchService.py"])
+            with open("rating.txt", 'w') as f:
+                f.write("run")
+                f.close()
+            call(['python', 'ratingSearchService.py'])
         else:
             print(closing_statement)
             break
